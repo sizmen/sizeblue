@@ -11,9 +11,12 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 #dnf install -y tmux
+dnf install -y zsh
 
-wget 'https://www.vpn.net/installers/logmein-hamachi-2.1.0.203-1.x86_64.rpm' -O '/tmp/logmein-hamachi.rpm'
-rpm -i /tmp/logmein-hamachi.rpm
+
+#wget 'https://www.vpn.net/installers/logmein-hamachi-2.1.0.203-1.x86_64.rpm' -O '/tmp/logmein-hamachi.rpm'
+#dnf install -y /tmp/logmein-hamachi.rpm
+#rpm -i /tmp/logmein-hamachi.rpm
 
 # Use a COPR Example:
 #
