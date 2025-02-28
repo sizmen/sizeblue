@@ -11,7 +11,7 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 #dnf install -y tmux
-dnf install -y zsh
+dnf install -y zsh distrobox
 
 
 #wget 'https://www.vpn.net/installers/logmein-hamachi-2.1.0.203-1.x86_64.rpm' -O '/tmp/logmein-hamachi.rpm'
