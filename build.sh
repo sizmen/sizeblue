@@ -11,7 +11,7 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 #dnf install -y tmux
-dnf install -y zsh distrobox
+dnf install -y akmod-nvidia xorg-x11-drv-nvidia cockpit-composer cockpit-machines cockpit-networkmanager cockpit-ostree cockpit-packagekit cockpit-selinux cockpit-system cockpit-ws distrobox libvirt virt-manager zsh
 
 
 #wget 'https://www.vpn.net/installers/logmein-hamachi-2.1.0.203-1.x86_64.rpm' -O '/tmp/logmein-hamachi.rpm'
